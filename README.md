@@ -1,5 +1,57 @@
-# Face-Recodnition-AI-with-Python
-This is a ML Face Recognition Project 
+# Face Recognition AI with Python Project
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-<img align="center" alt="face recognition" src="https://warehouse-camo.ingress.cmh1.psfhosted.org/5a78359ea27bd2ac223d7efb0f90810d77908461/68747470733a2f2f636c6f75642e67697468756275736572636f6e74656e742e636f6d2f6173736574732f3839363639322f32343433303339382f33366630653366302d313363622d313165372d383235382d3464306339636531653431392e676966">
+## Introduction
+The Face Recognition AI with Python Project is a web application that leverages machine learning to detect and recognize faces in images or video streams. It provides a powerful and easy-to-use interface for face recognition tasks.
+
+## Features
+- Real-time face detection and recognition
+- Support for image and video input
+- User-friendly interface for uploading and processing images
+- Database for storing known faces
+- High accuracy using state-of-the-art machine learning models
+
+## Technologies Used
+- Programming Language: Python
+- Libraries: OpenCV, dlib, face_recognition
+- Backend: Flask
+- Frontend: HTML, CSS, JavaScript
+- Database: SQLite
+
+## Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/sanjaikrp/Face-Recodnition.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd Face-Recodnition
+    ```
+3. Create a virtual environment and activate it:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+4. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+5. Set up the environment variables:
+    ```sh
+    cp .env.example .env
+    ```
+6. Start the development server:
+    ```sh
+    flask run
+    ```
+
+## Usage
+1. Open your web browser and navigate to `http://localhost:5000`.
+2. Use the provided interface to upload images or start a video stream.
+3. The application will detect and recognize faces, displaying the results on the interface.
